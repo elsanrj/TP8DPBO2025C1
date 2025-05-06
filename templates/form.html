@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>JUDUL</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="assets/bootstrap.min.css">
+  <script src="assets/jquery.min.js"></script>
+  <script src="assets/popper.min.js"></script>
+  <script src="assets/bootstrap.min.js"></script>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.php">Students</a>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.php">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="">?</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="">?</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="col-lg-6 m-auto">
+
+    <form method="post">
+
+      <br><br>
+      <div class="card">
+
+        HEADER_FORM
+
+        <input type="hidden" name="id" value="PH_ID" class="form-control"> <br>
+
+        <label> NAME: </label>
+        <input type="text" name="name" value="PH_NAME" class="form-control"> <br>
+
+        <label> NIM: </label>
+        <input type="text" name="nim" value="PH_NIM" class="form-control"> <br>
+
+        <label> PHONE: </label>
+        <input type="text" name="phone" value="PH_PHONE" class="form-control"> <br>
+
+        <label> JOIN DATE: </label>
+        <input type="date" name="join_date" value="PH_JOIN" class="form-control"> <br>
+
+        <button class="btn btn-success" type="submit" name="SUBMIT_NAME"> Submit </button><br>
+        <a class="btn btn-info" type="submit" name="cancel" href="index.php"> Cancel </a><br>
+
+      </div>
+    </form>
+  </div>
+</body>
+
+</html>
